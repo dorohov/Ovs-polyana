@@ -1,0 +1,21 @@
+.op_button {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 55px;
+    background-color: #99c302;
+    display: inline-block;
+    transition: .25s all ease;
+    &:hover {
+        background-color: #a7cf4f;
+    }
+}
+
+@media (max-width: $resp1200) {
+    .op_button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}

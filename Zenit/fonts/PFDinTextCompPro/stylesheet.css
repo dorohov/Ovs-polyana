@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-LightItalic.eot');
+    src: local('PFDinTextCompPro-LightItalic'),
+        url('PFDinTextCompPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-LightItalic.woff2') format('woff2'),
+        url('PFDinTextCompPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-BoldItalic.eot');
+    src: local('PFDinTextCompPro-BoldItalic'),
+        url('PFDinTextCompPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-BoldItalic.woff2') format('woff2'),
+        url('PFDinTextCompPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-Bold.eot');
+    src: local('PFDinTextCompPro-Bold'),
+        url('PFDinTextCompPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-Bold.woff2') format('woff2'),
+        url('PFDinTextCompPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-MediumItalic.eot');
+    src: local('PFDinTextCompPro-MediumItalic'),
+        url('PFDinTextCompPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-MediumItalic.woff2') format('woff2'),
+        url('PFDinTextCompPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-Medium.eot');
+    src: local('PFDinTextCompPro-Medium'),
+        url('PFDinTextCompPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-Medium.woff2') format('woff2'),
+        url('PFDinTextCompPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-ThinItalic.eot');
+    src: local('PFDinTextCompPro-ThinItalic'),
+        url('PFDinTextCompPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-ThinItalic.woff2') format('woff2'),
+        url('PFDinTextCompPro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-Regular.eot');
+    src: local('PFDinTextCompPro-Regular'),
+        url('PFDinTextCompPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-Regular.woff2') format('woff2'),
+        url('PFDinTextCompPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-Italic.eot');
+    src: local('PFDinTextCompPro-Italic'),
+        url('PFDinTextCompPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-Italic.woff2') format('woff2'),
+        url('PFDinTextCompPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-Light.eot');
+    src: local('PFDinTextCompPro-Light'),
+        url('PFDinTextCompPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-Light.woff2') format('woff2'),
+        url('PFDinTextCompPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('PFDinTextCompPro-Thin.eot');
+    src: local('PFDinTextCompPro-Thin'),
+        url('PFDinTextCompPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCompPro-Thin.woff2') format('woff2'),
+        url('PFDinTextCompPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+

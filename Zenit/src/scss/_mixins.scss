@@ -1,0 +1,16 @@
+@mixin circle($diametr, $color, $xpos, $xpos_n, $ypos_n) {
+    content: '';
+    height: $diametr;
+    width: $diametr;
+    background-color: $color;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    @if $xpos == 'left' {
+        left: $xpos_n;
+    } @else if $xpos == 'right' {
+        right: $xpos_n;
+    }
+    top: $ypos_n;
+}

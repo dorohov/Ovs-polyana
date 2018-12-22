@@ -1,0 +1,98 @@
+.op_info {
+    padding-top: 100px;
+    padding-bottom: 110px;
+    &__inner {
+        @extend .container;
+    }
+    &__line {
+        display: flex;
+        align-items: center;
+        &1 {
+            justify-content: space-between;
+            padding-left: 180px;
+            padding-bottom: 150px;
+            &--block {
+                max-width: 310px;
+                width: 100%;
+                &__n {
+                    font-family: 'Pf Din Text Comp Pro';
+                    color: #CDE0EF;
+                    font-size: 122px;
+                    font-weight: 600;
+                    line-height: 100px;
+                }
+                &__t {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #161616;
+                    font-family: 'Roboto';
+                    margin-top: -30px;
+                }
+            }
+        }
+        &2 {
+            justify-content: center;
+            &--block {
+                text-align: center;
+                width: 25%;
+                &__i {
+                    margin-bottom: 35px;
+                    img {
+                        vertical-align: top;
+                        max-height: 135px;
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+                &__t {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #161616;
+                    font-family: 'Roboto';
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $resp1200) {
+    .op_info {
+        &__line {
+            &1 {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: $resp768) {
+    .op_info {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        &__line {
+            &1 {
+                padding-left: 0;
+                display: block;
+                padding-bottom: 50px;
+                &--block {
+                    text-align: center;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+            &2 {
+                flex-wrap: wrap;
+                &--block {
+                    max-width: 50%;
+                    width: 100%;
+                    margin-bottom: 30px;
+                    &__i {
+                        img {
+                            max-height: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
