@@ -1,7 +1,6 @@
 @import "../../fonts/PFDinTextCompPro/stylesheet.css";
 @import "../../fonts/Roboto/stylesheet.css";
 @import "../../fonts/OpenSans/stylesheet.css";
-@import "hamburgers/hamburgers.scss";
 
 @import "var";
 @import "mixins";
@@ -13,6 +12,6 @@
 
 @import "banner";
 @import "advgs";
-@import "gallery";
+//@import "gallery";
 @import "info";
 @import "form";
